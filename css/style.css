@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+main{
+    padding: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    justify-items: center;
+}
+
+header{
+    position: relative;
+    color: white;
+}
+
+footer{
+    height: 70px;
+    background-color: #222222;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    font-size: 12px;
+}
+
+/*------------------------------------------------*/
+
+header .box:first-child{
+    margin-right: 30px;
+}
+
+.box{
+    position: absolute;
+    background-color: rgba(148, 148, 148, 0.3);
+    border-radius: 3px;
+    right: 5px;
+    top: 5px;
+    padding: 3px 5px;
+}
+
+/* -------------- / Header -------------------*/
+
+.user{
+    width: 13%;
+    height: 80px;
+    background-color: #ccc;
+    position: relative;
+    margin: 10px 0;
+}
+
+.user p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(148, 148, 148, 0.3);
+    padding: 2px;
+}
+
+.user p::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 12px;
+    content: "\f539";
+    margin-right: 3px;
+}
+
+img{
+    width: 100%;
+}
+
+/* -------------- / main -------------------*/
+
+.output {
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    text-align: center;
+}
+
+nav .fas, .far {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.arrow-up .fas{
+    font-size: 8px;
+}
+
+.fa-share-square{
+    color: #00cb00;
+}
+
+.audio,
+.video {
+    margin: 0 15px 5px 15px;
+}
+
+.call-manager{
+    display: flex;
+    align-items: center;
+}
+
+.call-manager > div{
+    margin: 0 10px;
+}
+
+.exit{
+    background-color: #4a4a4a;
+    display: flex;
+    align-items: center;
+}
+
+.exit a{
+    color: red;
+    line-height: 70px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+.exit a:hover{
+    background-color: rgba(204, 204, 204, 0.3);
+}
+
+
+
+
+
+
